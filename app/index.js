@@ -12,3 +12,10 @@ const arrayOfObjects = [
     age: "19"
   }
 ];
+
+const array = [2,4,6];
+
+function sum(array) {
+  return array.reduce((acc, curr) => acc + curr)
+}
+
